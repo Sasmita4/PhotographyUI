@@ -15,8 +15,8 @@ public class HomeController {
 	
 	@RequestMapping(value="/home", method=RequestMethod.GET)
 	public String getEachImage() {
-		homeService.getEachImage();
-		return "index.html";
+		//homeService.getEachImage();
+		return "dashboardAndHome";
 	}
 
 }

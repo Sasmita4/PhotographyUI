@@ -28,5 +28,7 @@ dependencies {
 	compile('org.springframework.boot:spring-boot-starter-web')
 	compile 'org.springframework.boot:spring-boot-starter-data-jpa'
 	compile group: 'mysql', name: 'mysql-connector-java'
+	compile group: 'org.apache.tomcat.embed', name: 'tomcat-embed-jasper', version: '7.0.42'
+	
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
