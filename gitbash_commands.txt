@@ -1,3 +1,10 @@
+https://examples.javacodegeeks.com/software-development/git/use-git-bash/
+
+https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/
+
+https://gitguide.readthedocs.io/en/latest/gitguide/
+
+https://www.git-tower.com/learn/git/faq/delete-remote-branch
 
 
 Commands on Git Bash:
