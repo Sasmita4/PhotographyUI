@@ -50,16 +50,13 @@
       <div class="social">
         <a href="#"><i class="fa fa-twitter"></i></a>
         <a href="#"><i class="fa fa-facebook"></i></a>
-        <a href="#"><i class="fa fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a> 
         <a href="#"><i class="fa fa-pinterest-p"></i></a>
         <a href="#"><i class="fa fa-google-plus"></i></a>
         <a href="#"><i class="fa fa-skype"></i></a>
       </div>
-      <div class="copyright-text">©Copyright <a href="https://themewagon.com/"> ThemeWagon</a> 2015 </div>
+       <div class="copyright-text">©Copyright <a href="https://arcbull.com/"> ArcBull</a> 2018 </div>
     </div>
-
-      
-
     <div class="canvas contact-page">
       <div class="contact-bg col-md-8 col-sm-12">
         <img src="img/dolon.jpg" alt="" width="100%">
@@ -100,9 +97,6 @@
         </div>
       </div>
     </div>
-
-      
-    
 
     <!-- Bootstrap core JavaScript
     ================================================== -->

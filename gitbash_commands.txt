@@ -1,0 +1,51 @@
+
+
+Commands on Git Bash:
+--------------------
+
+-> $ git --version
+
+-> Next, you need to set up the Git Bash with your Github account
+
+	$ git config --global user.name "username"
+
+
+-> $ git config --global user.email "useremail"
+
+-> To clone project
+
+    $ git clone giturl
+	
+	eg: $ git clone http://github.com/Sasmita4/PhotographyUI.git
+	
+
+	
+To commit Project in Git hub first time from GitBash:
+
+-> create repository in github
+-> Go to git bash --> go to project workspacepath
+-> git init
+-> git remote add origin <github repository path>
+eg: git remote add origin https://github.com/Sasmita4/PhotographyUI.git
+-> git remote -v (to verify pointed to github repository or not)
+-> git add .  (this is to add all the files which need to commit on github)
+-> git commit -m "initial commit"
+-> git push origin master
+-> history : to check all executed commands
+-> pwd : to check present working directory
+-> ls : to check the files and folders in directory
+-> clear : to clean
+-> exit : to exit
+
+To delete remote branch:
+git push origin --delete <branch Name>
+
+To delete local branch:
+git branch -d <branch Name>
+
+To clone perticular branch:
+git clone "repository_url" -b "branch_name"
+eg: git clone https://github.com/Sasmita4/PhotographyUI -b changes/sasmita
+
+
+
