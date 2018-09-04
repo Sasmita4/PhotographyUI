@@ -13,9 +13,7 @@ import javax.persistence.Table;
 @Table(name="contact")
 public class Contact implements Serializable{
 	
-	/**
-	 * 
-	 */
+	
 	private static final long serialVersionUID = -5920068666204344804L;
 
 	@Id

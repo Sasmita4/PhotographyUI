@@ -4,7 +4,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.photo.web.dao.HomeDao;
-import com.photo.web.domain.Home;
 import com.photo.web.model.HomeVo;
 import com.photo.web.service.HomeService;
 
@@ -16,8 +15,8 @@ public class HomeServiceImpl implements HomeService{
 
 	@Override
 	public HomeVo getEachImage() {
-		HomeVo homeVo;
-		Home home = homeDao.getEachImage();
+	/*	HomeVo homeVo;
+		Home home = homeDao.getEachImage();*/
 		return null;
 	}
 

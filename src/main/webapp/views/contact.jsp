@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <html lang="en">
 <meta http-equiv="content-type" content="text/html;charset=utf-8" />
 <head>
@@ -63,7 +63,7 @@
       </div>
       <div class="col-md-4 col-sm-12 contact-bar">
         <img class="map-img" src="img/map.jpg" alt="" width="100%">
-        <h3 class="interest-text text-center"> Thanks for your Interest </h3>
+        <h3 class="interest-text text-center"> Get in touch... </h3>
         <br>
         <div class="col-md-6 add-text">
         44, Akhaliya Rd. Akhaliya
@@ -77,23 +77,23 @@
         </div>
         <br>
         <div class="col-sm-12 col-md-12">
-            <form method="post" action="contact.php">
+            <form:form method="post" modelAttribute="contact" action="/photo/sendEmail">
                 <div class="controls controls-row">
                    <div class="">
-                    <input id="name" name="name" type="text" class="form-control" placeholder="Name"> 
+                    <form:input path="name" type="text" class="form-control" placeholder="Name"/> 
                     </div>
                      <div class="">
-                      <input id="email" name="email" type="email" class="col-md-6 form-control" placeholder="Email address">
+                      <form:input path="from" type="from" class="col-md-6 form-control" placeholder="Email address"/>
                     </div>
                 </div>
                 <div class="controls">
-                    <textarea id="message" name="message" class="col-md-12" placeholder="Your Message" rows="5"></textarea>
+                    <form:textarea path="message" class="col-md-12" placeholder="Your Message" rows="5"></form:textarea>
                 </div>
                   
                 <div class="controls btn-full">
-                    <button id="contact-submit" name="submit" value="Submit" type="submit" class="btn btn-primary">Send</button>
+                    <form:button id="contact-submit" name="submit" value="Submit" type="submit" class="btn btn-primary">Send</form:button>
                 </div>
-            </form>
+            </form:form>
         </div>
       </div>
     </div>
